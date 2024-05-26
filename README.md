@@ -6,11 +6,9 @@
 ## Abstract
 
 ![Basic SER Architecture](MediaFiles/Architecture.png)
-Speech Emotion Recognition (SER) involves identifying human emotions and affective states from speech. This process leverages the fact that emotions often manifest in vocal tone and pitch. Recently, emotion recognition has become a rapidly expanding research field. While machines inherently lack the capability to perceive and express emotions, incorporating automated emotion recognition into human-computer interactions can enhance user experience by reducing the need for human intervention.
 
-In this project, we analyze basic emotions such as calm, happy, fearful, and disgusted from emotional speech signals. We employ machine learning techniques, including the Multilayer Perceptron Classifier (MLP Classifier), which categorizes data into non-linearly separated groups. Additionally, we use Convolutional Neural Networks (CNN) and Recurrent Neural Networks with Long Short-Term Memory (RNN-LSTM) models. Features such as Mel-frequency cepstrum coefficients (MFCC), chroma, and mel are extracted from the speech signals to train the MLP classifier. To achieve this, we utilize Python libraries like Librosa, sklearn, pyaudio, numpy, and soundfile for analyzing speech modulations and recognizing emotions.
 
-The RAVDESS dataset, which includes approximately 1500 audio files from 24 actors (12 male and 12 female) expressing 8 different emotions, will be used to train an NLP-based model. This model will be capable of detecting the 8 basic emotions and identifying the speaker's gender. Once trained, the model can be deployed to predict emotions from live voice inputs.
+This project focuses on Speech Emotion Recognition (SER), which identifies human emotions from speech using vocal tone and pitch. We analyze basic emotions like calm, happy, fearful, and disgusted using machine learning techniques such as Multilayer Perceptron Classifier (MLP), Convolutional Neural Networks (CNN), and Recurrent Neural Networks with Long Short-Term Memory (RNN-LSTM). Features like MFCC, chroma, and mel are extracted from speech signals using Python libraries like Librosa and sklearn. The RAVDESS dataset with 1500 audio files from 24 actors expressing 8 emotions is used for training an NLP-based model. This model detects emotions and speaker gender, applicable for live voice inputs.
 
 ## Deliverables
 
