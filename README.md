@@ -25,13 +25,11 @@ For our project, we utilized the RAVDESS dataset. The Ryerson Audio-Visual Datab
 
 ## Observations
 
-- Challenges faced: selecting ideal features and tuning hyperparameters.
-- Features yielding highest accuracy: MFCCs and spectral features for MLP and CNN models.
-- Input features for LSTM limited to MFCCs due to its performance with sequential data.
-- Significant overfitting observed in all models, mitigated with dropout and regularization.
-- Extensive parameter optimization conducted for all models.
-- Final comparison showed CNN model performed best on the dataset.
+During the project, we encountered several challenges, primarily in selecting the ideal features for the models and tuning the hyperparameters. After experimenting with various features, we found that Mel-frequency cepstral coefficients (MFCCs) and spectral features yielded the highest accuracy in the MLP and CNN models. Given that the LSTM model performs best with sequential data, we limited its input features to MFCCs.
 
+All three models exhibited significant overfitting, which considerably reduced test accuracy. To mitigate this, we incorporated techniques such as dropout and regularization. We also conducted extensive efforts to optimize parameters, including the number of hidden layers, activation functions, optimizers, batch size, and test size, to maximize accuracy.
+
+Ultimately, the final comparison of the three models showed that the CNN model delivered the best results on the dataset.
 
 ## Feature Extraction
 
