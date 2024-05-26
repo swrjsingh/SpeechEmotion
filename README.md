@@ -150,5 +150,5 @@ Accuracy obtained on test data is 99.4%
 2. https://www.researchgate.net/publication/341922737_Multimodal_speech_emotion_recognition_and_classification_using_convolutional_neural_network_techniques
 3. https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53
 4. https://librosa.org/doc/main/tutorial.html
-5. http://www.jcreview.com/fulltext/197-1594073480.pdf?1625291827
+5. https://huggingface.co/learn/nlp-course
      
