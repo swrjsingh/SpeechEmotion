@@ -127,7 +127,7 @@ Accuracy obtained on test data is 77%
 Accuracy obtained on training data is 100%
 Accuracy obtained on test data is 99.4%
 
-### On Live Voice Input
+### On Live (unseen) Audio Input Data
   - CNN model gave an accuracy of 73% 
   - LSTM model gave an accuracy of 71%
   - MLP model gave an accuracy of 62%
