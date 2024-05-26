@@ -1,3 +1,8 @@
+### Results On Live (unseen) Audio Input Data
+  - CNN model gave an accuracy of 73% 
+  - LSTM model gave an accuracy of 71%
+  - MLP model gave an accuracy of 62%
+  
 ## Abstract
 Speech Emotion Recognition (SER) involves identifying human emotions and affective states from speech. This process leverages the fact that emotions often manifest in vocal tone and pitch. Recently, emotion recognition has become a rapidly expanding research field. While machines inherently lack the capability to perceive and express emotions, incorporating automated emotion recognition into human-computer interactions can enhance user experience by reducing the need for human intervention.
 
