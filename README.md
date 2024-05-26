@@ -77,6 +77,8 @@ Feature extraction is important in modeling because it converts audio files into
 
 #### MLP Model
 
+![MLP Model](MediaFiles/ArchitectureMLP.png)
+
 A fully connected neural network was deployed to predict emotions from the features of the sound files. 
 
 - This model consists of four hidden layers with dropout applied to the first three layers to prevent overfitting. 
@@ -88,6 +90,8 @@ A fully connected neural network was deployed to predict emotions from the featu
 
 #### LSTM Model
 
+![LSTM Model](MediaFiles/ArchitectureLSTM.png)
+
 A Long Short-Term Memory (LSTM) model was also implemented. 
 - This model consists of five layers: three LSTM layers followed by two fully connected dense layers. 
 - The LSTM layers have 256, 128, and 32 units, respectively, each with a dropout and recurrent dropout of 0.2. Kernel regularizers were added to each layer to minimize overfitting. 
@@ -96,6 +100,8 @@ A Long Short-Term Memory (LSTM) model was also implemented.
 - The final layer uses the 'softmax' activation function to predict one of the eight emotions.
 
 #### CNN Model
+
+![CNN Model](MediaFiles/ArchitectureCNN.png)
 
 A Convolutional Neural Network (CNN) was trained and tested on the dataset. 
 - The architecture consists of five layers: the first two are 1D convolutional layers, and the last three are fully connected dense layers. 
@@ -123,7 +129,7 @@ Accuracy obtained on test data is 75%
 Accuracy obtained on training data is 98.2%
 Accuracy obtained on test data is 77%
 
-### 7.0.2 Gender Recognition
+### Gender Recognition
 Accuracy obtained on training data is 100%
 Accuracy obtained on test data is 99.4%
 
