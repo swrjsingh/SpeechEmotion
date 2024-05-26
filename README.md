@@ -4,6 +4,8 @@
   - MLP model gave an accuracy of 62%
   
 ## Abstract
+
+![Basic SER Architecture](MediaFiles/Architecture.png)
 Speech Emotion Recognition (SER) involves identifying human emotions and affective states from speech. This process leverages the fact that emotions often manifest in vocal tone and pitch. Recently, emotion recognition has become a rapidly expanding research field. While machines inherently lack the capability to perceive and express emotions, incorporating automated emotion recognition into human-computer interactions can enhance user experience by reducing the need for human intervention.
 
 In this project, we analyze basic emotions such as calm, happy, fearful, and disgusted from emotional speech signals. We employ machine learning techniques, including the Multilayer Perceptron Classifier (MLP Classifier), which categorizes data into non-linearly separated groups. Additionally, we use Convolutional Neural Networks (CNN) and Recurrent Neural Networks with Long Short-Term Memory (RNN-LSTM) models. Features such as Mel-frequency cepstrum coefficients (MFCC), chroma, and mel are extracted from the speech signals to train the MLP classifier. To achieve this, we utilize Python libraries like Librosa, sklearn, pyaudio, numpy, and soundfile for analyzing speech modulations and recognizing emotions.
@@ -139,9 +141,9 @@ Accuracy obtained on training data is 100%
 Accuracy obtained on test data is 99.4%
 
 ### On Live (unseen) Audio Input Data
-  - CNN model gave an accuracy of 73% 
-  - LSTM model gave an accuracy of 71%
-  - MLP model gave an accuracy of 62%
+  - CNN model gave an accuracy of 72.6% 
+  - LSTM model gave an accuracy of 71.2%
+  - MLP model gave an accuracy of 62.2%
 
 
 
